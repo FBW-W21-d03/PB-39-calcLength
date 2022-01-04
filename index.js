@@ -1,6 +1,11 @@
 function calcLength(name) {
-  console.log("So lang der Name: " + name.length);
+  return "So lang der Name: " + name.length;
 }
-calcLength("Bob");
-calcLength("John");
-calcLength("FreiZeitProgramiererMitLustAufMehr");
+
+let return1 = calcLength("Bob");
+let return2 = calcLength("John");
+let return3 = calcLength("FreiZeitProgramiererMitLustAufMehr");
+
+console.log(return1);
+console.log(return2);
+console.log(return3);
