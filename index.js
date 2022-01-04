@@ -1,13 +1,9 @@
+function calcLength(name){
+    return "Der Name ist folgende Zeichen lang:" + name.length; 
+};
 
-  
-// Aufgaabe Teil 1
-function calcLength(name) {
-    name = name.length;
-    console.log("Der Name ist folgende Zeichen lang: ", name);
-    
-}
 
-// Aufgaabe Teil 2
-
-calcLength("John");
-calcLength("Bob");
+let return1 = calcLength("John");
+let return2 = calcLength("Bob");
+console.log(return1);
+console.log(return2);
