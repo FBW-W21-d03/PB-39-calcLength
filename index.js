@@ -1,10 +1,7 @@
-let text = "Hello World!";
-//let length = text.length;
-
-
+// 1)
 function calcLength(name){
     console.log("Der Name ist folgende Zeichen lang: ",name.length);
 }
-
+// 2)
 calcLength("John");
 calcLength("Bob");
