@@ -7,13 +7,16 @@ In der Funktion wird die Länge des Parameters ermittelt.
 Die Funktion gibt die Ausgabe ("Der Name ist folgende Zeichen lang: ", x) in die Konsole aus.*/
 
 function calcLength(name){
-        console.log("Der Name ist folgende Zeichen lang: ", name.length);
-}
+        return "Der Name ist folgende Zeichen lang: " + name.length;
+};
 
 
 /* Aufgabenstellung - Teil 2
 Teste deine Funktion.
 Führe sie mit dem Argument "John" aus.
 Führe sie anschließend mit dem Argument "Bob" aus.*/
-calcLength("John")
-calcLength("Bob")
+
+let return1 = calcLength("John");
+let return2 = calcLength("Bob");
+console.log(return1);
+console.log(return2);
