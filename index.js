@@ -1,3 +1,5 @@
+"use strict";
+
 function calcLength(name) {
   return "So lang der Name: " + name.length;
 }
