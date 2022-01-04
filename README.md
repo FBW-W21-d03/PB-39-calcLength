@@ -1,5 +1,7 @@
 # javascript-calcLength
 
+## !NEU! - VERWENDE RETURN STATEMENT IN DER FUNKTION
+
 ## Aufgabenstellung - Teil 1
 Schreibe eine Funktion calcLength(name).
 
