@@ -6,4 +6,4 @@ function calcLength (name) {
 
 
   
-    
+    return "Der Name ist folgende Zeichen lang: " + name.length;
