@@ -10,3 +10,4 @@ function calcLength(name){
 
 calcLength("John");
 calcLength("Bob");
+calcLength("Dennis");
